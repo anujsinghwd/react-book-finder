@@ -12,7 +12,7 @@ function App() {
     <Provider store={ store }>
       <Router>
         <SearchAppBar />
-        <Route exact path="/react-book-finder" component={Album} />
+        <Route exact path="/react-book-finder/" component={Album} />
         <Route exact path="/detail" component={Grids} />
       </Router>
     </Provider>
