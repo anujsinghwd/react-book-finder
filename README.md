@@ -4,7 +4,7 @@ A simple note application
 
 ## Preview
 
-![Preview](assets/keep-notes.gif)
+![Preview](https://github.com/anujsinghwd/react-book-finder/blob/master/assets/book.gif)
 
 ## To see how it's work
 
