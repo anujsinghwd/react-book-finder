@@ -103,7 +103,7 @@ class SearchAppBar extends Component {
         <Toolbar>
           
           <Typography className={classes.title} variant="h6" color="inherit" noWrap>
-          <Link to="/">Book Finder</Link>
+          <Link to="/react-book-finder/">Book Finder</Link>
           </Typography>
           
           <div className={classes.grow} />

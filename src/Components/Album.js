@@ -62,7 +62,7 @@ const styles = theme => ({
 class Album extends Component {
 
   componentWillMount(){
-    this.props.getBooks({txt: 'Marvel'});
+    this.props.getBooks({txt: 'iron man'});
     window.scrollTo(0, 0);
   }
 
