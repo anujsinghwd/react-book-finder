@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SearchAppBar from './Components/common/SearchAppBar';
+import Album from './Components/Album';
+import store from './store';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Grids from './Components/common/Grids';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={ store }>
+      <Router>
+        <SearchAppBar />
+        <Route exact path="/" component={Album} />
+        <Route exact path="/detail" component={Grids} />
+      </Router>
+    </Provider>
   );
 }
 
