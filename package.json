@@ -1,5 +1,6 @@
 {
   "name": "react-book-finder",
+  "homepage": "https://anujsinghwd.github.io/react-book-finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
