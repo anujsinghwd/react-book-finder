@@ -1,6 +1,7 @@
 ## react-book-finder
 
-A simple note application
+Book Finder Application
+
 
 ## Preview
 
@@ -66,9 +67,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 [Redux](https://redux.js.org/)
 
-[React Router][https://reacttraining.com/react-router/]
+[React Material](https://material-ui.com/)
 
-[Create React App](https://github.com/facebook/create-react-app).
+[React Router](https://reacttraining.com/react-router/)
+
+[Create React App](https://github.com/facebook/create-react-app)
 
 [react-notifications](https://www.npmjs.com/package/react-notifications)
 
